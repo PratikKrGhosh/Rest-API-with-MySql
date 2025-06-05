@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "This is a full Rest API Created with NodeJs, Express and MySql to perform full CRUD operation.",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "Rest",
